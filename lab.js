@@ -11,6 +11,10 @@ let me = {
   age: 24
 }
 
+console.log(me);
+
+console.log('--------------------------------');
+
 //////////////////////////// PROBLEM 2 ////////////////////////////
 
 //Create an object saved to the variable dog.
@@ -27,19 +31,27 @@ let dog = {
   goodBoy: true
 }
 
+console.log(dog);
+
+console.log('--------------------------------');
+
 //////////////////////////// PROBLEM 3 ////////////////////////////
 /* Print out the name of the dog you created in problem 2 using dot-notation. */
 
 //Code here
 
+console.log(dog.name);
 
+console.log('--------------------------------');
 
 //////////////////////////// PROBLEM 4 ////////////////////////////
 /* Print out the color of the dog you created in problem 2 using bracket-notation. */
 
 //Code here
 
+console.log(dog['color']);
 
+console.log('--------------------------------');
 
 //////////////////////////// PROBLEM 5 ////////////////////////////
 /*
@@ -65,6 +77,8 @@ let dog = {
 //Code here
 
 
+console.log('--------------------------------')
+
 //////////////////////////// PROBLEM 6 ////////////////////////////
 
 // Do not edit the code below.
@@ -84,6 +98,8 @@ var carDetails = {
 
 
 
+console.log('--------------------------------')
+
 //////////////////////////// PROBLEM 7 ////////////////////////////
 
 /*
@@ -102,6 +118,8 @@ function greeting( obj ) {
 
 
 
+console.log('--------------------------------')
+
 //////////////////////////// PROBLEM 8 ////////////////////////////
 
 /*
@@ -116,6 +134,8 @@ function greeting( obj ) {
 
 
 
+console.log('--------------------------------')
+
 //////////////////////////// PROBLEM 9 ////////////////////////////
 
 /*
@@ -129,6 +149,8 @@ function greeting( obj ) {
 //Code Here
 
 
+
+console.log('--------------------------------')
 
 //////////////////////////// PROBLEM 10 ////////////////////////////
 // Do not edit the code below.
@@ -151,6 +173,8 @@ var user = {
 //Code Here
 
 
+console.log('--------------------------------')
+
 //////////////////////////// PROBLEM 11 ////////////////////////////
 /*
   Using the user object above, delete the users age off of the object.
@@ -158,6 +182,8 @@ var user = {
 
 //Code Here
 
+
+console.log('--------------------------------')
 
 //////////////////////////// PROBLEM 12 ////////////////////////////
 /*
@@ -170,6 +196,8 @@ var user = {
 
 
 
+console.log('--------------------------------')
+
 //////////////////////////// PROBLEM 13 ////////////////////////////
 /*
   Create a class called 'Wizard'. Make sure to call your constructor, and require these 3 parameters: name, age, favoriteSpell.
@@ -179,6 +207,8 @@ var user = {
 */
 
 //Code here
+
+console.log('--------------------------------')
 
 //////////////////////////// PROBLEM 14 ////////////////////////////
 /*
@@ -237,6 +267,8 @@ var user = {
 //Code Here 
 
 
+console.log('--------------------------------')
+
 //////////////////////////// PROBLEM 15 ////////////////////////////
 
 /*
@@ -286,6 +318,8 @@ const shippingInfo = {
 
 //Print helensInfo to see what it looks like, there should be no repeating properties.
 
+
+console.log('--------------------------------')
 
 //////////////////////////// PROBLEM 16 ////////////////////////////
 
