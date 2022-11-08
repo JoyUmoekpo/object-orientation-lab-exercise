@@ -61,12 +61,23 @@ console.log('--------------------------------');
 
 //Code here
 
+let favoriteThings = {
+  band: 'Rascal Flatts',
+  food: 'Spaghetti',
+  person: 'Noé',
+  book: 'The Alchemist',
+  movie: 'Real Steel',
+  holiday: 'Christmas'
+}
+
+console.log(favoriteThings);
 
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car and then another key named 'show' with the value being your favorite show.
 */
 
 //Code here
+
 
 
 /*
