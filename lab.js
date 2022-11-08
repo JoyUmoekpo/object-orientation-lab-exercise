@@ -115,25 +115,12 @@ var carDetails = {
 
 //Code Here
 
-let {
-  color
-} = carDetails;
-let {
-  make
-} = carDetails;
-let {
-  model
-} = carDetails;
-let {
-  year
-} = carDetails;
+let {color, make, model, year} = carDetails;
 
 console.log(color);
 console.log(make);
 console.log(model);
 console.log(year);
-
-//Come back here
 
 console.log('--------------------------------');
 
@@ -145,7 +132,7 @@ console.log('--------------------------------');
   The property names are firstName, lastName, and title.
 */
 
-let obj = {
+let object = {
   firstName: 'Joy',
   lastName: 'Umoekpo',
   title: 'Ms.'
@@ -163,9 +150,7 @@ function greeting(obj) {
   // Do not edit the code above.
 };
 
-greeting(obj);
-
-//Come back
+console.log(greeting(object));
 
 console.log('--------------------------------');
 
@@ -195,13 +180,11 @@ const totalPopulation = (obj) => {
     texas,
     arizona
   } = obj;
-  let sum = utah + california + texas + arizona;
-  return sum;
+
+  return utah + california + texas + arizona;
 };
 
-totalPopulation(stateObject);
-
-//Come back 
+console.log(totalPopulation(stateObject));
 
 console.log('--------------------------------');
 
@@ -223,8 +206,6 @@ let ingredientsObject = {
   protein: 'protein'
 };
 
-let newIngredientsObject = {};
-
 const ingredients = (obj) => {
   let {
     carb,
@@ -232,11 +213,10 @@ const ingredients = (obj) => {
     protein
   } = obj;
 
-  // newIngredientsObject = obj.push(carb, fat, protein);
-  return newIngredientsObject;
+  return [carb, fat, protein];
 };
 
-ingredients(ingredientsObject);
+console.log(ingredients(ingredientsObject));
 
 console.log('--------------------------------');
 
@@ -306,7 +286,7 @@ let myCat = new Cat('Noé', 2, 'white');
 
 console.log(myCat.name);
 
-console.log('--------------------------------')
+console.log('--------------------------------');
 
 //////////////////////////// PROBLEM 13 ////////////////////////////
 /*
@@ -333,7 +313,7 @@ class Wizard {
 let wizard1 = new Wizard();
 wizard1.castSpell('Vanitas', 'deletus cursus');
 
-console.log('--------------------------------')
+console.log('--------------------------------');
 
 //////////////////////////// PROBLEM 14 ////////////////////////////
 /*
@@ -360,6 +340,27 @@ console.log('--------------------------------')
 
 //Code Here
 
+class Phone {
+  constructor(brand, model, storage, color, price, sold) {
+    this.brand = brand;
+    this.model = model;
+    this.storage = storage;
+    this.color = color;
+    this.price = price;
+    this.sold = false;
+  }
+
+  sell() {
+    this.sold = true;
+    console.log(`${this.brand}${this.model} has been sold`)
+  }
+
+  changePrice(newPrice) {
+    this.price = newPrice;
+  }
+};
+
+//Come back
 
 /*
     Next make three new phone instances using your class.
@@ -373,6 +374,14 @@ console.log('--------------------------------')
 
 //Code Here
 
+let phone1 = new Phone('Android', '12', 435, 'green', 1035);
+let phone2 = new Phone('iPhone', '14', 250, 'white', 1300);
+let phone3 = new Phone('Samsung', '11', 125, 'pink', 900);
+
+console.log(phone1);
+
+console.log('--------------------------------');
+
 /* 
   Call the changePrice function on one of your phones, 
   don't forget to pass in a new price 
@@ -381,7 +390,10 @@ console.log('--------------------------------')
 */
 
 //Code Here 
+phone2.changePrice(500);
+console.log(phone2);
 
+console.log('--------------------------------')
 
 /*
   Now call the sell method on one of your other phone objects
@@ -391,6 +403,8 @@ console.log('--------------------------------')
 
 //Code Here 
 
+phone3.sell();
+console.log(phone3);
 
 console.log('--------------------------------')
 
@@ -415,9 +429,9 @@ const colors = {
 
 
 /*
- Now use the spread operator to combine the following 2 objects into one. 
- Call the new variable helensInfo. 
- When they combine, none of the properties should be repeated.
+  Now use the spread operator to combine the following 2 objects into one. 
+  Call the new variable helensInfo. 
+  When they combine, none of the properties should be repeated.
 */
 
 //do not edit the objects below
