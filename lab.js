@@ -136,21 +136,17 @@ console.log('--------------------------------')
   The property names are firstName, lastName, and title.
 */
 
-let object = {
-  firstName: 'Joy',
-  lastName: 'Umoekpo',
-  title: 'Ms.'
-}
-
 function greeting( obj ) {
   //Code Here
-  
+  const {title, firstName, lastName} = obj
   // Do not edit the code below.
   return 'Hello, ' + title + ' ' + firstName + ' ' + lastName + '!';
   // Do not edit the code above.
 }
 
-greeting(object);
+console.log(greeting);
+
+//Come back
 
 console.log('--------------------------------')
 
