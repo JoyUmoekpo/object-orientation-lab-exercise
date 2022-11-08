@@ -40,7 +40,7 @@ console.log('--------------------------------');
 
 //Code here
 
-console.log(dog.name); 
+console.log(dog.name);
 
 console.log('--------------------------------');
 
@@ -114,10 +114,18 @@ var carDetails = {
 
 //Code Here
 
-let {color} = carDetails;
-let {make} = carDetails;
-let {model} = carDetails;
-let {year} = carDetails;
+let {
+  color
+} = carDetails;
+let {
+  make
+} = carDetails;
+let {
+  model
+} = carDetails;
+let {
+  year
+} = carDetails;
 
 console.log(color);
 console.log(make);
@@ -142,9 +150,13 @@ let obj = {
   title: 'Ms.'
 };
 
-function greeting( obj ) {
+function greeting(obj) {
   //Code Here
-  let {title, firstName, lastName} = obj
+  let {
+    title,
+    firstName,
+    lastName
+  } = obj
   // Do not edit the code below.
   return 'Hello, ' + title + ' ' + firstName + ' ' + lastName + '!';
   // Do not edit the code above.
@@ -169,14 +181,19 @@ console.log('--------------------------------')
 //Code Here
 
 let stateObject = {
-  utah: 3, 
-  california: 4, 
-  texas: 3, 
+  utah: 3,
+  california: 4,
+  texas: 3,
   arizona: 2
 }
 
 const totalPopulation = (obj) => {
-  let {utah, california, texas, arizona} = obj;
+  let {
+    utah,
+    california,
+    texas,
+    arizona
+  } = obj;
   let sum = utah + california + texas + arizona;
   return sum;
 }
@@ -208,12 +225,21 @@ let ingredientsObject = {
 let newIngredientsObject = {};
 
 const ingredients = (obj) => {
+  let {
+    carb,
+    fat,
+    protein
+  } = obj;
 
+  // newIngredientsObject = obj.push(carb, fat, protein);
+  return newIngredientsObject;
 }
 
 ingredients(ingredientsObject);
 
 console.log('--------------------------------')
+
+//come back
 
 //////////////////////////// PROBLEM 10 ////////////////////////////
 // Do not edit the code below.
@@ -298,7 +324,7 @@ console.log('--------------------------------')
 
 //Code Here
 
-  
+
 /*
     Next make three new phone instances using your class.
     Send in values of your choice. They should match these data types:
@@ -316,7 +342,7 @@ console.log('--------------------------------')
   don't forget to pass in a new price 
 
   Then console.log that object to see the price change
-*/ 
+*/
 
 //Code Here 
 
