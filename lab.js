@@ -318,6 +318,21 @@ console.log('--------------------------------')
 
 //Code here
 
+class Wizard {
+  constructor(name, age, favoriteSpell) {
+    this.name = name;
+    this.age = age;
+    this.favoriteSpell = favoriteSpell;
+  }
+
+  castSpell(name, favoriteSpell) {
+    console.log(`${name} has cast ${favoriteSpell}`)
+  }
+};
+
+let wizard1 = new Wizard();
+wizard1.castSpell('Vanitas', 'deletus cursus');
+
 console.log('--------------------------------')
 
 //////////////////////////// PROBLEM 14 ////////////////////////////
