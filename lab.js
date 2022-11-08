@@ -20,7 +20,12 @@ let me = {
 
 //Code here
 
-
+let dog = {
+  name: 'Makoto',
+  color: 'brown',
+  age: 18,
+  goodBoy: true
+}
 
 //////////////////////////// PROBLEM 3 ////////////////////////////
 /* Print out the name of the dog you created in problem 2 using dot-notation. */
