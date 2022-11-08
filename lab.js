@@ -9,7 +9,7 @@
 let me = {
   name: 'Joy Umoekpo',
   age: 24
-}
+};
 
 console.log(me);
 
@@ -29,7 +29,7 @@ let dog = {
   color: 'brown',
   age: 18,
   goodBoy: true
-}
+};
 
 console.log(dog);
 
@@ -68,7 +68,7 @@ let favoriteThings = {
   book: 'The Alchemist',
   movie: 'Real Steel',
   holiday: 'Christmas'
-}
+};
 
 console.log(favoriteThings);
 
@@ -95,7 +95,7 @@ favoriteThings.book = 'Harry Potter';
 
 console.log(favoriteThings);
 
-console.log('--------------------------------')
+console.log('--------------------------------');
 
 //////////////////////////// PROBLEM 6 ////////////////////////////
 
@@ -105,7 +105,8 @@ var carDetails = {
   make: 'toyota',
   model: 'tacoma',
   year: 1994
-}
+};
+
 // Do not edit the code above.
 
 /*
@@ -134,7 +135,7 @@ console.log(year);
 
 //Come back here
 
-console.log('--------------------------------')
+console.log('--------------------------------');
 
 //////////////////////////// PROBLEM 7 ////////////////////////////
 
@@ -160,13 +161,13 @@ function greeting(obj) {
   // Do not edit the code below.
   return 'Hello, ' + title + ' ' + firstName + ' ' + lastName + '!';
   // Do not edit the code above.
-}
+};
 
 greeting(obj);
 
 //Come back
 
-console.log('--------------------------------')
+console.log('--------------------------------');
 
 //////////////////////////// PROBLEM 8 ////////////////////////////
 
@@ -185,7 +186,7 @@ let stateObject = {
   california: 4,
   texas: 3,
   arizona: 2
-}
+};
 
 const totalPopulation = (obj) => {
   let {
@@ -196,13 +197,13 @@ const totalPopulation = (obj) => {
   } = obj;
   let sum = utah + california + texas + arizona;
   return sum;
-}
+};
 
 totalPopulation(stateObject);
 
 //Come back 
 
-console.log('--------------------------------')
+console.log('--------------------------------');
 
 //////////////////////////// PROBLEM 9 ////////////////////////////
 
@@ -233,11 +234,11 @@ const ingredients = (obj) => {
 
   // newIngredientsObject = obj.push(carb, fat, protein);
   return newIngredientsObject;
-}
+};
 
 ingredients(ingredientsObject);
 
-console.log('--------------------------------')
+console.log('--------------------------------');
 
 //come back
 
@@ -261,14 +262,14 @@ var user = {
 
 //Code Here
 
-console.log(user)
+console.log(user);
 
 user.name = 'Bryan G. Smith';
 user.email = 'bryan.smith@devmounta.in';
 
-console.log(user)
+console.log(user);
 
-console.log('--------------------------------')
+console.log('--------------------------------');
 
 //////////////////////////// PROBLEM 11 ////////////////////////////
 /*
@@ -277,8 +278,12 @@ console.log('--------------------------------')
 
 //Code Here
 
+console.log(user);
 
-console.log('--------------------------------')
+delete user.age;
+console.log(user);
+
+console.log('--------------------------------');
 
 //////////////////////////// PROBLEM 12 ////////////////////////////
 /*
