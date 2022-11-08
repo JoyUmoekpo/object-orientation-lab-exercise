@@ -78,7 +78,10 @@ console.log(favoriteThings);
 
 //Code here
 
+favoriteThings.car = 'Toyota';
+favoriteThings.show = 'Wicked';
 
+console.log(favoriteThings);
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
@@ -87,6 +90,10 @@ console.log(favoriteThings);
 
 //Code here
 
+favoriteThings.food = 'Chicken Nuggets';
+favoriteThings.book = 'Harry Potter';
+
+console.log(favoriteThings);
 
 console.log('--------------------------------')
 
