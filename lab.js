@@ -136,15 +136,21 @@ console.log('--------------------------------')
   The property names are firstName, lastName, and title.
 */
 
+let obj = {
+  firstName: 'Joy',
+  lastName: 'Umoekpo',
+  title: 'Ms.'
+};
+
 function greeting( obj ) {
   //Code Here
-  const {title, firstName, lastName} = obj
+  let {title, firstName, lastName} = obj
   // Do not edit the code below.
   return 'Hello, ' + title + ' ' + firstName + ' ' + lastName + '!';
   // Do not edit the code above.
 }
 
-console.log(greeting);
+greeting(obj);
 
 //Come back
 
@@ -162,7 +168,22 @@ console.log('--------------------------------')
 
 //Code Here
 
+let stateObject = {
+  utah: 3, 
+  california: 4, 
+  texas: 3, 
+  arizona: 2
+}
 
+const totalPopulation = (obj) => {
+  let {utah, california, texas, arizona} = obj;
+  let sum = utah + california + texas + arizona;
+  return sum;
+}
+
+totalPopulation(stateObject);
+
+//Come back 
 
 console.log('--------------------------------')
 
@@ -178,7 +199,19 @@ console.log('--------------------------------')
 
 //Code Here
 
+let ingredientsObject = {
+  carb: 'carb',
+  fat: 'fat',
+  protein: 'protein'
+};
 
+let newIngredientsObject = {};
+
+const ingredients = (obj) => {
+
+}
+
+ingredients(ingredientsObject);
 
 console.log('--------------------------------')
 
