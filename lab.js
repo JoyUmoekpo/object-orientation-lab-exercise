@@ -40,7 +40,7 @@ console.log('--------------------------------');
 
 //Code here
 
-console.log(dog.name);
+console.log(dog.name); 
 
 console.log('--------------------------------');
 
