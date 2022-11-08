@@ -261,6 +261,12 @@ var user = {
 
 //Code Here
 
+console.log(user)
+
+user.name = 'Bryan G. Smith';
+user.email = 'bryan.smith@devmounta.in';
+
+console.log(user)
 
 console.log('--------------------------------')
 
