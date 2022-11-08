@@ -114,7 +114,17 @@ var carDetails = {
 
 //Code Here
 
+let {color} = carDetails;
+let {make} = carDetails;
+let {model} = carDetails;
+let {year} = carDetails;
 
+console.log(color);
+console.log(make);
+console.log(model);
+console.log(year);
+
+//Come back here
 
 console.log('--------------------------------')
 
@@ -126,6 +136,12 @@ console.log('--------------------------------')
   The property names are firstName, lastName, and title.
 */
 
+let object = {
+  firstName: 'Joy',
+  lastName: 'Umoekpo',
+  title: 'Ms.'
+}
+
 function greeting( obj ) {
   //Code Here
   
@@ -134,7 +150,7 @@ function greeting( obj ) {
   // Do not edit the code above.
 }
 
-
+greeting(object);
 
 console.log('--------------------------------')
 
