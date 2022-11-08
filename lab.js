@@ -294,7 +294,17 @@ console.log('--------------------------------');
 
 //Code here
 
+class Cat {
+  constructor(name, age, color) {
+    this.name = name;
+    this.age = age;
+    this.color = color;
+  }
+};
 
+let myCat = new Cat('Noé', 2, 'white');
+
+console.log(myCat.name);
 
 console.log('--------------------------------')
 
